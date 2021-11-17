@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Simon Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>🎲 Simon Game 🎲</h1>
+    </header>
+
+    <main>
+      <h2 id="subtitulo">Apretá el botón para empezar!</h2>
+
+      <div class="contenedor">
+        <div type="button" class="bloque bloque-verde" id="verde"></div>
+
+        <div type="button" class="bloque bloque-rojo" id="rojo"></div>
+
+        <div type="button" class="bloque bloque-amarillo" id="amarillo"></div>
+
+        <div type="button" class="bloque bloque-azul" id="azul"></div>
+      </div>
+      <div class="contenedor-botones">
+        <button class="boton" id="nuevo-juego">Nuevo Juego</button>
+
+        <button class="boton"id="repetir-secuencia">Repetir Secuencia</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hecho con 💖 - Santiago De Blasis</p>
+      <p>
+        <a href="https://github.com/DBSantiago"
+          ><i class="fab fa-github fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/santiagodeblasis/"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+      </p>
+    </footer>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
